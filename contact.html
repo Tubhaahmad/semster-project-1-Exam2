@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with us! Find contact details, location, and information on how to reach our team for inquiries, feedback, or special requests."
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+</html>
+
+<body>
+  <main>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="index.html"
+              ><img src="images/csm-logo.png" alt="logo"
+            /></a>
+          </li>
+
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="explore-hero">
+      <div>
+        <h2 class="explore-heading">CONTACT US</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class="contact-sub-heading">CONTACT FORM</div>
+
+      <div>
+        <p class="contact-intro">
+          We’re here to help! Whether you have questions about our exhibits,
+          upcoming events, educational programs, or anything else, our team is
+          happy to assist. If you need more information on planning your visit,
+          have feedback to share, please don’t hesitate to reach out.
+        </p>
+      </div>
+    </section>
+
+    <section class="form-container">
+      <div class="form-box">
+        <div class="input-section">
+          <label for="name" class="form-headings">FULL NAME</label>
+          <input
+            type="text"
+            id="firstname"
+            placeholder="First name"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            id="lastname"
+            placeholder="Last name"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="input-section">
+          <label for="name" class="form-headings">PHONE NUMBER</label>
+          <input type="text" id="phonenumber" placeholder="Phone number" />
+        </div>
+
+        <div class="input-section">
+          <label for="name" class="form-headings">EMAIL</label>
+          <input type="text" id="email" placeholder="Email" />
+        </div>
+
+        <div>
+          <label for="name" class="form-headings">MESSAGE</label>
+          <input
+            class="message-input"
+            type="text"
+            id="textbox"
+            placeholder=""
+          />
+        </div>
+
+        <div>
+          <p class="contact-info">
+            We usually answer between 48 hours. If your inquiry is urgent,
+            please don’t hesitate to call us directly. We look forward to
+            assisting you!
+          </p>
+        </div>
+
+        <div class="submit-btn">
+          <a href="#">SUBMIT</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-container">
+      <div>
+        <img src="images/csm-logo.png" class="footer-logo-img" />
+      </div>
+
+      <div class="footer-contact">
+        <h3 class="footer-heading">ADDRESS</h3>
+        <p>Elisenbergsgate 32, 0268 Oslo</p>
+      </div>
+      <div class="footer-contact">
+        <h3 class="footer-heading">Customer Service</h3>
+        <p>+47 98765432</p>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="footer-contact">
+        <h3 class="footer-heading">Museum</h3>
+        <a href="visit.html">Visit Us</a>
+        <a href="visit.html">Opening Hours</a>
+        <a href="about.html">About Us</a>
+        <a href="visit.html">Tickets</a>
+      </div>
+    </section>
+  </footer>
+</body>
