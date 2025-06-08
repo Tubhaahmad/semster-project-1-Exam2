@@ -31,28 +31,28 @@
   <body>
     <main>
       <header>
-        <nav>
+        <nav aria-label="Main navigation">
           <ul class="nav-bar">
-            <li class="logo">
+            <li class="logo" alt="CSM logo">
               <a href="index.html"
                 ><img src="images/csm-logo.png" alt="logo"
               /></a>
             </li>
-
             <input type="checkbox" id="check" />
+
+            <label for="check" class="open-menu" aria-label="Open menu"
+              ><i class="fas fa-bars"></i
+            ></label>
             <span class="menu">
               <li><a href="visit.html">Visit</a></li>
               <li><a href="exhibitions.html">Exhibitions</a></li>
               <li><a href="explore.html">Explore</a></li>
               <li><a href="events.html">Events</a></li>
               <li><a href="about.html">About</a></li>
-              <label for="check" class="close-menu"
+              <label for="check" class="close-menu" aria-label="Close menu"
                 ><i class="fas fa-times"></i
               ></label>
             </span>
-            <label for="check" class="open-menu"
-              ><i class="fas fa-bars"></i
-            ></label>
           </ul>
         </nav>
       </header>
